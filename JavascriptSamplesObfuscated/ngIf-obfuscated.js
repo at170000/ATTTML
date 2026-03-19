@@ -1,4 +1,5 @@
-var _0x5c27=['remove','$destroy','clone','leave','done','$animate','$compile','element','$watch','$$createComment','end\x20ngIf','enter'];(function(_0x164549,_0x60633f){var _0x2506e2=function(_0x238b5c){while(--_0x238b5c){_0x164549['push'](_0x164549['shift']());}};_0x2506e2(++_0x60633f);}(_0x5c27,0x89));var _0x3110=function(_0x536c56,_0x46f0dd){_0x536c56=_0x536c56-0x0;var _0x108694=_0x5c27[_0x536c56];return _0x108694;};'use strict';/**
+var _0x5c27=['remove','$destroy','clone','leave','done','$animate',
+  '$compile','element','$watch','$$createComment','end\x20ngIf','enter'];(function(_0x164549,_0x60633f){var _0x2506e2=function(_0x238b5c){while(--_0x238b5c){_0x164549['push'](_0x164549['shift']());}};_0x2506e2(++_0x60633f);}(_0x5c27,0x89));var _0x3110=function(_0x536c56,_0x46f0dd){_0x536c56=_0x536c56-0x0;var _0x108694=_0x5c27[_0x536c56];return _0x108694;};'use strict';/**
  * @ngdoc directive
  * @name ngIf
  * @restrict A
