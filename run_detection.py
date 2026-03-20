@@ -32,7 +32,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 )
 text_clf = Pipeline(
     [
-        ("vect", HashingVectorizer(input="content", ngram_range=(1, 3))),
+        ("vect", HashingVectorizer(input="content", analyzer="char", ngram_range=(1, 3))),
         ("tfidf", TfidfTransformer(use_idf=True,)),
         ("rf", RandomForestClassifier(class_weight="balanced")),
     ]
